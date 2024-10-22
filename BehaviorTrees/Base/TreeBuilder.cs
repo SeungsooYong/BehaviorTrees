@@ -1,5 +1,7 @@
 // https://www.codeproject.com/Articles/12592/Generic-Tree-T-in-C
 
+using System.Collections.Generic;
+
 namespace BehaviorTrees.Collections
 {
 	/// <summary>

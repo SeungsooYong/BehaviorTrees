@@ -2,6 +2,8 @@
 
 using BehaviorTrees.Utils;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
 
 namespace BehaviorTrees.Engine

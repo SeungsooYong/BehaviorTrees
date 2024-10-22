@@ -1,5 +1,6 @@
 ﻿// Copyright(c) 2015 Eugeny Novikov. Code under MIT license.
 
+using System;
 using System.Diagnostics;
 
 namespace BehaviorTrees.Utils

@@ -1,6 +1,7 @@
 ﻿// Copyright(c) 2015 Eugeny Novikov. Code under MIT license.
 
 using BehaviorTrees.Utils;
+using System;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
@@ -128,7 +129,7 @@ namespace BehaviorTrees.Engine
 			}
 			catch (Exception e)
 			{
-				Log.Write(e, "Component.Initialize() failed to intialize component '{0}'.", this);
+				Log.Write("Component.Initialize() failed to intialize component '{0}'.", this);
 			}
 		}
 
@@ -176,7 +177,7 @@ namespace BehaviorTrees.Engine
 			catch (Exception ex)
 			{
 				_isActive = false;
-				Log.Write(ex, "Component.Activate() failed with exception: '{0}'", this);
+				Log.Write("Component.Activate() failed with exception: '{0}'", this);
 			}
 		}
 
@@ -204,7 +205,7 @@ namespace BehaviorTrees.Engine
 			}
 			catch (Exception ex)
 			{
-				Log.Write(ex, "Component.Deactivate() failed with exception: '{0}'", this);
+				Log.Write("Component.Deactivate() failed with exception: '{0}'", this);
 			}
 		}
 

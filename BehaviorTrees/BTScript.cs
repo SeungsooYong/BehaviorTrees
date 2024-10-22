@@ -1,6 +1,7 @@
 ﻿// Copyright(c) 2015 Eugeny Novikov. Code under MIT license.
 
 using Newtonsoft.Json;
+using System.IO;
 using System.Runtime.Serialization;
 
 namespace BehaviorTrees

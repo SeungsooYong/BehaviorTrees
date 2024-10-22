@@ -2,6 +2,7 @@
 
 using BehaviorTrees.Collections;
 using BehaviorTrees.Engine;
+using System;
 using System.ComponentModel;
 using System.Reflection;
 using System.Runtime.Serialization;

@@ -1,7 +1,7 @@
 ﻿// Copyright(c) 2015 Eugeny Novikov. Code under MIT license.
 
 using BehaviorTrees.Engine;
-
+using System.Collections.Generic;
 
 namespace BehaviorTrees
 {

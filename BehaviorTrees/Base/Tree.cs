@@ -6,6 +6,8 @@ using System.Runtime.Serialization;
 
 namespace BehaviorTrees.Collections
 {
+	using System;
+	using System.Collections.Generic;
 	using System.ComponentModel;
 
 	/// <summary>
